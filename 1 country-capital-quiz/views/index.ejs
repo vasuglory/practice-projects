@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body id="app">
+  <main class="container">
+    <p id="totalScore">Total Score: 0</p>
+    <form action="/submit" method="post" id="form">
+      <h2 id="question"><%= question %></h2>
+      <input type="text" name="answer" id="answer" autocomplete="off" autofocus placeholder="Enter the capital">
+      <button id="submit">
+        <input type="submit" value="SUBMIT">
+        <!-- <span id="correct">✅</span> -->
+      </button>
+    </form>
+  </main>
+  <script src="/scripts/script.js"></script>
+</body>
+</html>
