@@ -1,0 +1,82 @@
+body{
+  background: url("/assets/websiteBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: monospace;
+  overflow-y: hidden;
+  font-size: 1.3rem;
+  padding: 0;
+  margin: 0;
+} 
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+}
+div.tasks-container{
+  display: flex;
+  flex-direction: column;
+  padding: 0 12px;
+  
+}
+.task-container{
+  
+  display: flex;
+  align-items: center;
+}
+p.task-data{
+  flex: 1 1 auto; 
+  min-width: 0;
+  margin: 0 12px;
+}
+
+span.round-shaped-checkbox{
+  flex: 0 0 auto;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+button#delete-task{
+  flex: 0 0 auto;
+  width: 25px;
+  height: 25px;
+  background: url("/assets/delete.png");
+  border: none;
+  cursor: pointer;
+}
+button#edit-task{
+  flex: 0 0 auto;
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+  background: url("/assets/editIcon.png");
+  border: none;
+  cursor: pointer;
+}
+/* add a task container */
+form#add-a-task-form{
+  margin: 24px 0;
+  padding: 0 12px;
+  display: flex;
+  gap:12px;
+}
+input#task{
+  padding: 8px;
+  width: 200px;
+  border: none;
+  outline: 1px solid lightblue;
+}
+button#add-task{
+  background-color: white;
+  border: 1px solid lightblue;
+  cursor: pointer;
+}
+button#add-task>img{
+  vertical-align: middle;
+}
