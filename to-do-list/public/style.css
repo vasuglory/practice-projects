@@ -42,7 +42,7 @@ span.round-shaped-checkbox{
   border-radius: 50%;
   cursor: pointer;
 }
-button#delete-task{
+button.delete-task{
   flex: 0 0 auto;
   width: 25px;
   height: 25px;
@@ -50,7 +50,7 @@ button#delete-task{
   border: none;
   cursor: pointer;
 }
-button#edit-task{
+button.edit-task{
   flex: 0 0 auto;
   width: 25px;
   height: 25px;
